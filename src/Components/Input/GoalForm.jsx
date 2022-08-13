@@ -15,7 +15,7 @@ const GoalForm = (props) => {
         }
         props.handlingformData(textInput)
 
-        setTextInput("")
+        setTextInput('')
     }
   return (
     

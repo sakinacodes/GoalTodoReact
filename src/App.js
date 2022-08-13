@@ -13,7 +13,7 @@ const App = () => {
   const handleDelete = (goalId) => {
     setGoals(
       prevGoals => {
-        const updatedGoals = prevGoals.filter( goal => goal.id !== goalId)
+        const updatedGoals = prevGoals.filter( goal => goal.id!==goalId)
         console.log(updatedGoals)
         return updatedGoals
       }

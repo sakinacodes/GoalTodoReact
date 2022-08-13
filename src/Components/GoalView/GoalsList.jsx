@@ -5,8 +5,7 @@ const GoalsList = (props) => {
   return (
     <div>
         <ul>
-            {
-                
+            { 
              props.goals.map(goal => (
                 
                 <GoalItem 
@@ -16,7 +15,6 @@ const GoalsList = (props) => {
                 onDelete={props.handleDelete}
                 />
              ))
-            
         }
         </ul>
     </div>

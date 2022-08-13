@@ -6,12 +6,12 @@
 @layer components
     .invalidInput {
         background-color: #ff7d7d;
-        border: 1px solid red;
+       
     }
     .invalidLabel {
         color: red;
     }
     .validInput {
         background-color: white;
-        border: 1px solid gray;
+       
     }
